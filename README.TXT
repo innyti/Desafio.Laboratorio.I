@@ -1,12 +1,2 @@
-----------------------------------------------------------------------------
-Este é o arquivo README do projeto. Você deve descrever aqui o seu projeto.
-Informe ao usuário (alguém que não sabe nada sobre este projeto!) tudo que
-ele/ela precisa saber. Os comentários devem incluir, pelo menos:
-------------------------------------------------------------------------
-
-TÍTULO DO PROJETO:
-OBJETIVO DO PROJETO:
-VERSÃO ou DATA:
-COMO INICIAR O PROJETO:
-AUTORES:
-INSTRUÇÕES PARA O USUÁRIO:
+Projeto desenvolvido como parte da nota do Grau A (primeiro conjunto de avaliações) para a cadeira de Labóratorio I do curso de Análise e Desenvolvimento de Sistemas da Faculdade Unisinos. 
+Foi desenvolvido com no software BlueJ em novembro de 2023. 
