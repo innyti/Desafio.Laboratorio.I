@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Vestuario
+comment1.params=nome\ quantidadeFuncionarios\ salarioBase\ endereco\ dataFundacao\ produtosImportados\ tamanhoEstoque
+comment1.target=Vestuario(java.lang.String,\ int,\ double,\ Endereco,\ Data,\ boolean,\ int)
+comment2.params=produtosImportados
+comment2.target=void\ setProdutosImportados(boolean)
+comment3.params=
+comment3.target=boolean\ getProdutosImportados()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

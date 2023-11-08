@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Bijuteria
+comment1.params=nome\ quantidadeFuncionarios\ salarioBase\ endereco\ dataFundacao\ metaVendas\ tamanhoEstoque
+comment1.target=Bijuteria(java.lang.String,\ int,\ double,\ Endereco,\ Data,\ double,\ int)
+comment2.params=metaVendas
+comment2.target=void\ setMetaVendas(double)
+comment3.params=
+comment3.target=double\ getMetaVendas()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

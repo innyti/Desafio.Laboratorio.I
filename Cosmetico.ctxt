@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Cosmetico
+comment1.params=nome\ quantidadeFuncionarios\ salarioBase\ endereco\ dataFundacao\ taxaComercializacao\ tamanhoEstoque
+comment1.target=Cosmetico(java.lang.String,\ int,\ double,\ Endereco,\ Data,\ double,\ int)
+comment2.params=taxaComercializacao
+comment2.target=void\ setTaxaComercializacao(double)
+comment3.params=
+comment3.target=double\ getTaxaComercializacao()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

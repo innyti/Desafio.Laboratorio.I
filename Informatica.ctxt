@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Informatica
+comment1.params=nome\ quantidadeFuncionarios\ salarioBase\ endereco\ dataFundacao\ seguroEletronicos\ tamanhoEstoque
+comment1.target=Informatica(java.lang.String,\ int,\ double,\ Endereco,\ Data,\ double,\ int)
+comment2.params=seguroEletronicos
+comment2.target=void\ setSeguroEletronicos(double)
+comment3.params=
+comment3.target=double\ getSeguroEletronicos()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
