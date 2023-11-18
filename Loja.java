@@ -47,6 +47,44 @@ public class Loja
         }
     }
 
+    public void imprimeProdutos(){
+        for(int i = 0; i < estoqueProdutos.length; i++){
+            if(estoqueProdutos[i] == null)
+                continue;
+            System.out.println(estoqueProdutos[i].toString());   
+        }
+    }
+
+    public boolean insereProduto(Produto novo){
+        for(int i = 0; i < estoqueProdutos.length; i++){
+            if(estoqueProdutos[i] == null){
+                estoqueProdutos[i] = novo;
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean removeProduto(String removido){
+        for(int i = 0; i < estoqueProdutos.length; i++){
+            if(estoqueProdutos[i] != null && estoqueProdutos[i].getNome() == removido){
+                estoqueProdutos[i] = null;
+                return true;
+            }
+        }   
+        return false;
+    }
+
+    private int contaProdutos(){
+        int qntProdutos = 0;
+        for(int i = 0; i < estoqueProdutos.length; i++){
+            if(estoqueProdutos[i] != null){
+                qntProdutos++;
+            } 
+        } 
+        return qntProdutos;
+    }
+
     public String getNome(){
         return nome;
     }
@@ -93,44 +131,6 @@ public class Loja
 
     public void setSalarioBaseFuncionario(double salarioBaseFuncionario){
         this.salarioBaseFuncionario = salarioBaseFuncionario;
-    }
-
-    public void imprimeProdutos(){
-        for(int i = 0; i < estoqueProdutos.length; i++){
-            if(estoqueProdutos[i] == null)
-                continue;
-            System.out.println(estoqueProdutos[i].toString());   
-        }
-    }
-
-    public boolean insereProduto(Produto novo){
-        for(int i = 0; i < estoqueProdutos.length; i++){
-            if(estoqueProdutos[i] == null){
-                estoqueProdutos[i] = novo;
-                return true;
-            }
-        }
-        return false;
-    }
-
-    public boolean removeProduto(String removido){
-        for(int i = 0; i < estoqueProdutos.length; i++){
-            if(estoqueProdutos[i] != null && estoqueProdutos[i].getNome() == removido){
-                estoqueProdutos[i] = null;
-                return true;
-            }
-        }   
-        return false;
-    }
-
-    private int contaProdutos(){
-        int qntProdutos = 0;
-        for(int i = 0; i < estoqueProdutos.length; i++){
-            if(estoqueProdutos[i] != null){
-                qntProdutos++;
-            } 
-        } 
-        return qntProdutos;
     }
 
     @Override public String toString(){

@@ -10,30 +10,6 @@ public class Shopping
         this.lojas = new Loja[qntLojas];
     }
 
-    public void setNome(String nome){
-        this.nome = nome;
-    }
-
-    public void setEndereco(Endereco endereco){
-        this.endereco = endereco;
-    }
-
-    public void setLojas(Loja[] lojas){
-        this.lojas = lojas;    
-    }
-
-    public String getNome(){
-        return this.nome;    
-    }
-
-    public Endereco getEndereco(){
-        return this.endereco;
-    }
-
-    public Loja[] getLojas(){
-        return this.lojas;    
-    }
-
     public boolean insereLoja(Loja lojaNova){
         for(int i = 0; i < lojas.length; i++){
             if(lojas[i] == null){
@@ -117,6 +93,30 @@ public class Shopping
             } 
         } 
         return lojasOcupadas;
+    }
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public void setEndereco(Endereco endereco){
+        this.endereco = endereco;
+    }
+
+    public void setLojas(Loja[] lojas){
+        this.lojas = lojas;    
+    }
+
+    public String getNome(){
+        return this.nome;    
+    }
+
+    public Endereco getEndereco(){
+        return this.endereco;
+    }
+
+    public Loja[] getLojas(){
+        return this.lojas;    
     }
 
     @Override public String toString(){
